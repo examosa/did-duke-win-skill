@@ -1,0 +1,30 @@
+{
+  "name": "did-duke-win-alexa-skill",
+  "version": "1.0.0",
+  "description": "Alexa skill to determine if Duke won.",
+  "keywords": [
+    "alexa",
+    "skill",
+    "duke"
+  ],
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Jules Amosah",
+    "email": "teomik129@gmail.com"
+  },
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --fix src",
+    "test": "uvu tests"
+  },
+  "dependencies": {
+    "ask-sdk": "^2.12.1",
+    "cheerio": "^1.0.0-rc.12",
+    "undici": "^5.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-plugin-unicorn": "^43.0.2",
+    "uvu": "^0.5.6"
+  }
+}
